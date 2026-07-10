@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Login&Reg/Login&Reg.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container">
+        <a href="../index.html" class="logo">Tasty</a>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../Menu/Menu.html">Menu</a></li>
+            <li><a href="./login.html">Login</a></li>
+            <li><a href="./Register.html">Register</a></li>
+          </ul>
+        </nav>
+      
+      </div>
+    </header>
+
+    <main>
+      <section class="login">
+        <div class="login-card">
+          <h2>Register</h2>
+          <form class="form" action="#">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                name="Name"
+                placeholder="Enter your Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter your password"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="password">Confirm Password</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Confirm  your password"
+                required
+              />
+            </div>
+            <button type="submit" class="login-btn">Register</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

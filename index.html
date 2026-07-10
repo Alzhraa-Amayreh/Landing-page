@@ -1,195 +1,243 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link href="./style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Tasty Restaurant</title>
+  </head>
+  <body>
     <header class="navbar">
-        <div class="container">
-            <a href="./index.html" class="logo">Tasty</a>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#">Register</a></li>
-                </ul>
-            </nav>
-            <a href="#contact" class="btn btn-nav">Order Now</a>
-        </div>
+      <div class="container">
+        <a href="./index.html" class="logo">Tasty</a>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./Menu/Menu.html">Menu</a></li>
+            <li><a href="./Login&Reg/login.html">Login</a></li>
+            <li><a href="./Login&Reg/Register.html">Register</a></li>
+          </ul>
+        </nav>
+        <a href="./Menu/Menu.html" class="btn btn-nav">Order Now</a>
+      </div>
     </header>
-     <main>
-          <section class="hero">
-         <div class="content">
-            <h1>Welcome to Tasty</h1>
-            <p>Delicious meals made with love. Taste the difference today!</p>
-            <a href="#menu" class="btn btn-hero">Browse Menu</a>
-         </div v>
-       </section>
-
-        <section class="features">
-        <div class="container">
-            <h2 class="section-title">Why Choose Us</h2>
-            <div class="features-grid">
-                <article class="feature-card">
-                    <i class="fa-solid fa-leaf"></i>
-                    <h3>Fresh Ingredients</h3>
-                    <p>We source the freshest ingredients daily to ensure quality in every bite.</p>
-                </article>
-                <article class="feature-card">
-                    <i class="fa-solid fa-fire"></i>
-                    <h3>Expert Chefs</h3>
-                    <p>Our world-class chefs bring passion and skill to every dish they create.</p>
-                </article>
-                <article class="feature-card">
-                    <i class="fa-solid fa-truck-fast"></i>
-                    <h3>Fast Delivery</h3>
-                    <p>Hot and fresh meals delivered to your door in under 30 minutes.</p>
-                </article>
-            </div>
+    <main>
+      <section class="hero">
+        <div class="content">
+          <h1>Welcome to Tasty</h1>
+          <p>Delicious meals made with love. Taste the difference today!</p>
+          <a href="#menu" class="btn btn-hero">Browse Menu</a>
         </div>
-    </section>
+      </section>
 
-     <section class="categories" id="menu">
+      <section class="features">
         <div class="container">
-            <h2 class="section-title">Categories</h2>
-            <div class="category">
-                <article class="card">
-                    <img src="./assets/imgs/pizza.webp" width="300" height="200" alt="pizza"/>
-                    <h3>Grilled Fingerlings Pizza</h3>
-                </article>
-                <article class="card">
-                    <img src="./assets/imgs/burger.webp" width="300" height="200" alt="burger"/>
-                    <h3>Cheesy Burger Deluxe</h3>
-                </article>
-                <article class="card">
-                    <img src="./assets/imgs/Drinks.webp" width="300" height="200" alt="drink"/>
-                    <h3>Fresh Juice</h3>
-                </article>
-                <article class="card">
-                    <img src="./assets/imgs/dessert.webp" width="300" height="200" alt="dessert"/>
-                    <h3>Chocolate Dessert</h3>
-                </article>
-            </div>
+          <h2 class="section-title">Why Choose Us</h2>
+          <div class="features-grid">
+            <article class="feature-card">
+              <i class="fa-solid fa-leaf"></i>
+              <h3>Fresh Ingredients</h3>
+              <p>
+                We source the freshest ingredients daily to ensure quality in
+                every bite.
+              </p>
+            </article>
+            <article class="feature-card">
+              <i class="fa-solid fa-fire"></i>
+              <h3>Expert Chefs</h3>
+              <p>
+                Our world-class chefs bring passion and skill to every dish they
+                create.
+              </p>
+            </article>
+            <article class="feature-card">
+              <i class="fa-solid fa-truck-fast"></i>
+              <h3>Fast Delivery</h3>
+              <p>
+                Hot and fresh meals delivered to your door in under 30 minutes.
+              </p>
+            </article>
+          </div>
         </div>
-    </section>
-      
+      </section>
 
-
-     <section class="products">
+      <section class="categories" id="menu">
         <div class="container">
-            <h2 class="section-title">Our Best Sellers</h2>
-            <div class="products-grid">
-                <article class="product-card">
-                    <img src="./assets/imgs/pizza.webp" alt="Pizza">
-                    <div class="product-content">
-                        <h3>Grilled Fingerlings Pizza</h3>
-                        <p>Fresh ingredients with a delicious cheesy crust.</p>
-                        <span class="price">$12</span>
-                        <div class="icons">
-                            <i class="fa-regular fa-heart"></i>
-                            <i class="fa-solid fa-cart-shopping"></i>
-                            <i class="fa-solid fa-share-nodes"></i>
-                        </div>
-                    </div>
-                </article>
-                <article class="product-card">
-                    <img src="./assets/imgs/burger.webp" alt="Burger">
-                    <div class="product-content">
-                        <h3>Cheesy Burger Deluxe</h3>
-                        <p>Juicy beef patty with melted cheese and fresh veggies.</p>
-                        <span class="price">$10</span>
-                        <div class="icons">
-                            <i class="fa-regular fa-heart"></i>
-                            <i class="fa-solid fa-cart-shopping"></i>
-                            <i class="fa-solid fa-share-nodes"></i>
-                        </div>
-                    </div>
-                </article>
-                <article class="product-card">
-                    <img src="./assets/imgs/Drinks.webp" alt="Drink">
-                    <div class="product-content">
-                        <h3>Fresh Juice</h3>
-                        <p>100% natural fruit juice, freshly squeezed daily.</p>
-                        <span class="price">$5</span>
-                        <div class="icons">
-                            <i class="fa-regular fa-heart"></i>
-                            <i class="fa-solid fa-cart-shopping"></i>
-                            <i class="fa-solid fa-share-nodes"></i>
-                        </div>
-                    </div>
-                </article>
-                <article class="product-card">
-                    <img src="./assets/imgs/dessert.webp" alt="Dessert">
-                    <div class="product-content">
-                        <h3>Chocolate Dessert</h3>
-                        <p>Rich chocolate cake with creamy ganache topping.</p>
-                        <span class="price">$8</span>
-                        <div class="icons">
-                            <i class="fa-regular fa-heart"></i>
-                            <i class="fa-solid fa-cart-shopping"></i>
-                            <i class="fa-solid fa-share-nodes"></i>
-                        </div>
-                    </div>
-                </article>
-            </div>
+          <h2 class="section-title">Categories</h2>
+          <div class="category">
+            <article class="card">
+              <img
+                src="./assets/imgs/Pizza.webp"
+                width="300"
+                height="200"
+                alt="pizza"
+              />
+              <h3>Grilled Fingerlings Pizza</h3>
+            </article>
+            <article class="card">
+              <img
+                src="./assets/imgs/Burger.webp"
+                width="300"
+                height="200"
+                alt="burger"
+              />
+              <h3>Cheesy Burger Deluxe</h3>
+            </article>
+            <article class="card">
+              <img
+                src="./assets/imgs/Drinks.webp"
+                width="300"
+                height="200"
+                alt="drink"
+              />
+              <h3>Fresh Juice</h3>
+            </article>
+            <article class="card">
+              <img
+                src="./assets/imgs/Dessert.webp"
+                width="300"
+                height="200"
+                alt="dessert"
+              />
+              <h3>Chocolate Dessert</h3>
+            </article>
+          </div>
         </div>
-    </section>
+      </section>
 
-     <section class="contact" id="contact">
+      <section class="products">
         <div class="container">
-            <h2 class="section-title">Contact Us</h2>
-            <form action="/submit" method="post" class="contact-form">
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+          <h2 class="section-title">Our Best Sellers</h2>
+          <div class="products-grid">
+            <article class="product-card">
+              <img src="./assets/imgs/Pizza.webp" alt="Pizza" />
+              <div class="product-content">
+                <h3>Grilled Fingerlings Pizza</h3>
+                <p>Fresh ingredients with a delicious cheesy crust.</p>
+                <span class="price">$12</span>
+                <div class="icons">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <i class="fa-solid fa-share-nodes"></i>
                 </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+              </div>
+            </article>
+            <article class="product-card">
+              <img src="./assets/imgs/Burger.webp" alt="Burger" />
+              <div class="product-content">
+                <h3>Cheesy Burger Deluxe</h3>
+                <p>Juicy beef patty with melted cheese and fresh veggies.</p>
+                <span class="price">$10</span>
+                <div class="icons">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <i class="fa-solid fa-share-nodes"></i>
                 </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+              </div>
+            </article>
+            <article class="product-card">
+              <img src="./assets/imgs/Drinks.webp" alt="Drink" />
+              <div class="product-content">
+                <h3>Fresh Juice</h3>
+                <p>100% natural fruit juice, freshly squeezed daily.</p>
+                <span class="price">$5</span>
+                <div class="icons">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <i class="fa-solid fa-share-nodes"></i>
                 </div>
-                <button type="submit" class="btn btn-submit">Send Message</button>
-            </form>
+              </div>
+            </article>
+            <article class="product-card">
+              <img src="./assets/imgs/Dessert.webp" alt="Dessert" />
+              <div class="product-content">
+                <h3>Chocolate Dessert</h3>
+                <p>Rich chocolate cake with creamy ganache topping.</p>
+                <span class="price">$8</span>
+                <div class="icons">
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <i class="fa-solid fa-share-nodes"></i>
+                </div>
+              </div>
+            </article>
+          </div>
         </div>
-    </section>
-     </main> 
+      </section>
 
-      <footer class="footer">
+      <section class="contact" id="contact">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <h3 class="footer-logo">Tasty</h3>
-                    <p>Delicious meals made with love since 2020.</p>
-                </div>
-                <div class="footer-links">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="./index.html">Home</a></li>
-                        <li><a href="./Menu/Menu.html">Menu</a></li>
-                        <li><a href="./Login&Reg/login.html">Login</a></li>
-                        <li><a href="./Login&Reg/Register.html">Register</a></li>
-                    </ul>
-                </div>
-                <div class="footer-contact">
-                    <h4>Contact Info</h4>
-                    <p><i class="fa-solid fa-location-dot"></i> 123 Food Street, City</p>
-                    <p><i class="fa-solid fa-phone"></i> +1 234 567 890</p>
-                    <p><i class="fa-solid fa-envelope"></i> info@tasty.com</p>
-                </div>
+          <h2 class="section-title">Contact Us</h2>
+          <form action="#" method="post" class="contact-form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+              />
             </div>
-            <div class="footer-bottom">
-                <p>2026 Tasty Restaurant. All rights reserved.</p>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
             </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Enter your message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-submit">Send Message</button>
+          </form>
         </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <h3 class="footer-logo">Tasty</h3>
+            <p>Delicious meals made with love since 2020.</p>
+          </div>
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./Menu/Menu.html">Menu</a></li>
+              <li><a href="./Login&Reg/login.html">Login</a></li>
+              <li><a href="./Login&Reg/Register.html">Register</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h4>Contact Info</h4>
+            <p>
+              <i class="fa-solid fa-location-dot"></i> 123 Food Street, City
+            </p>
+            <p><i class="fa-solid fa-phone"></i> +1 234 567 890</p>
+            <p><i class="fa-solid fa-envelope"></i> info@tasty.com</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2026 Tasty Restaurant. All rights reserved.</p>
+        </div>
+      </div>
     </footer>
-
-</body>
+  </body>
 </html>
